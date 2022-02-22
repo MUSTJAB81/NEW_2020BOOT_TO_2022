@@ -34,4 +34,4 @@ jobs:
       - name: Installing Surge
         run:  npm install --g surge 
       - name: deploying useing surge
-        run: surge ./ https://marked-magic.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+        run: surge ./ https://marked-magic.surge.sh --token ${{ secrets.SURGE_TOKEN }}
